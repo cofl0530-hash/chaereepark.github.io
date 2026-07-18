@@ -283,10 +283,11 @@ h1{
   padding: 88px 64px;
   border-bottom: 1px solid var(--line);
   scroll-margin-top: 40px;
-  opacity: 0;
-  transform: translateY(14px);
+  opacity: 1;
+  transform: none;
   transition: opacity .6s ease, transform .6s ease;
 }
+.sheet.reveal-pending{ opacity: 0; transform: translateY(14px); }
 .sheet.is-visible{ opacity:1; transform:none; }
 
 @media (max-width:640px){
